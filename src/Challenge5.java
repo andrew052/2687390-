@@ -18,6 +18,7 @@ public class Challenge5 {
         String nomd = nombre.toUpperCase();
         String apes = apellido.toLowerCase();
         String nombres = nombre; 
+        String letter = nombre.substring(0, 2);
         
         char carac = nombres.charAt(1);
         char car = nombres.charAt(2 );
@@ -25,7 +26,7 @@ public class Challenge5 {
         System.err.println("su nombre es " + nombre.toUpperCase() + " y tiene " + nombre.length() + " letras y su apellido es " + apellido.toLowerCase() + " y tiene " + apellido.length() + " letras" );
         System.out.println("su nombre completo es " + nombrecompleto);
         
-        System.out.println("Su apodo es " + nombre.charAt(1) + nombres.charAt(car) + apellido.toLowerCase() );
+        System.out.println("Su apodo es " + nombre.substring(0, 2) + apellido.toLowerCase() );
         
         
         
