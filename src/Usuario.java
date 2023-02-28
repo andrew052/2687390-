@@ -11,10 +11,10 @@ public class Usuario {
         System.out.println("Ingresar Contraseña");
         String password = reading.nextLine();
 
-        if(user.equals("Oscar") && password.equals("123")){
+        if(user.equals("Andres") && password.equals("324")){
             System.out.println("Bienvenido a el sistema");
         }
-        else if(user.equals("Oscar")){
+        else if(user.equals("Andres")){
 
             System.out.println("Parece que olvidaste tus crecenciales de acceso");
         }
