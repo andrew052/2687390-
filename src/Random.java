@@ -5,7 +5,7 @@ public class Random {
         System.out.println("Elige entre cara y cruz, escribe 1 si eliges cara y dos si eliges cruz");
         System.out.println("elige por cual quieres elegir");
         int moneda;
-        coin = reading.nextInt();
+        moneda = reading.nextInt();
         int resulta = (int)(Math.random()*2+1);
         if(resulta==1){
             System.out.println("salio cara");

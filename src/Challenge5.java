@@ -20,8 +20,7 @@ public class Challenge5 {
         String nombres = nombre; 
         String letter = nombre.substring(0, 2);
         
-        char carac = nombres.charAt(1);
-        char car = nombres.charAt(2 );
+       
     
         System.err.println("su nombre es " + nombre.toUpperCase() + " y tiene " + nombre.length() + " letras y su apellido es " + apellido.toLowerCase() + " y tiene " + apellido.length() + " letras" );
         System.out.println("su nombre completo es " + nombrecompleto);
